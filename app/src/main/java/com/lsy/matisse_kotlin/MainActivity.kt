@@ -27,20 +27,16 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.lsy.matisse.Matisse
-import com.lsy.matisse.MimeType
-import com.lsy.matisse.MimeTypeManager
-import com.lsy.matisse.engine.impl.GlideEngine
-import com.lsy.matisse.engine.impl.PicassoEngine
-import com.lsy.matisse.filter.Filter
-import com.lsy.matisse.internal.entity.CaptureStrategy
-import com.lsy.matisse.listener.OnCheckedListener
-import com.lsy.matisse.listener.OnSelectedListener
+import com.frame.matisse.Matisse
+import com.frame.matisse.MimeTypeManager
+import com.frame.matisse.engine.impl.GlideEngine
+import com.frame.matisse.engine.impl.PicassoEngine
+import com.frame.matisse.filter.Filter
+import com.frame.matisse.internal.entity.CaptureStrategy
+import com.frame.matisse.listener.OnCheckedListener
+import com.frame.matisse.listener.OnSelectedListener
 import com.tbruyelle.rxpermissions2.RxPermissions
 import java.lang.String
-import java.lang.Throwable
-import kotlin.Int
-import kotlin.also
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -91,7 +87,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 .countable(true)
                 .capture(true)
                 .captureStrategy(
-                    CaptureStrategy(true, "com.lsy.matisse.sample.fileprovider", "test")
+                    CaptureStrategy(true, "com.frame.matisse.sample.fileprovider", "test")
                 )
                 .maxSelectable(9)
                 .addFilter(GifSizeFilter(320, 320, 5 * Filter.K * Filter.K))
