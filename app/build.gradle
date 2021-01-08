@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion AndroidConfig.compileSdkVersion
+    buildToolsVersion AndroidConfig.buildToolsVersion
+
+    defaultConfig {
+        applicationId AndroidConfig.defaultConfig.applicationId
+        minSdkVersion AndroidConfig.defaultConfig.minSdkVersion
+        targetSdkVersion AndroidConfig.defaultConfig.targetSdkVersion
+        versionCode AndroidConfig.defaultConfig.versionCode
+        versionName AndroidConfig.defaultConfig.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation Libs.kotlin_stdlib
+    implementation Libs.core_ktx
+    implementation Libs.appcompat
+    implementation Libs.material
+    implementation Libs.constraintlayout
+    testImplementation Libs.junit
+    androidTestImplementation Libs.androidx_junit
+    androidTestImplementation Libs.espresso_core
+
+    implementation project(':matisse')
+//    implementation 'com.github.caixiaoxu:Matisse_Kotlin:1.0.0'
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.12'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+    implementation Libs.coil
+    implementation Libs.coil_gif
+    implementation Libs.coil_video
+}
