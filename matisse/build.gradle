@@ -47,6 +47,7 @@ dependencies {
     implementation Libs.constraintlayout
 
     implementation Libs.imagezoom
-    api project(path: ':matisse:func')
 
+    implementation project(path: ':matisse:func')
+//    api project(path: ':matisse:func')
 }
