@@ -8,10 +8,11 @@ import androidx.annotation.IntDef
 import androidx.annotation.RequiresApi
 import androidx.annotation.StyleRes
 import androidx.fragment.app.Fragment
-import com.frame.matisse.engine.ImageEngine
-import com.frame.matisse.filter.Filter
-import com.frame.matisse.internal.entity.CaptureStrategy
-import com.frame.matisse.internal.entity.SelectionSpec
+import com.frame.matisse.func.MimeType
+import com.frame.matisse.func.engine.ImageEngine
+import com.frame.matisse.func.filter.Filter
+import com.frame.matisse.func.internal.entity.CaptureStrategy
+import com.frame.matisse.func.internal.entity.SelectionSpec
 import com.frame.matisse.listener.OnCheckedListener
 import com.frame.matisse.listener.OnSelectedListener
 import com.frame.matisse.ui.MatisseActivity
@@ -338,6 +339,10 @@ class SelectionCreator(
      * @param requestCode Identity of the request Activity or Fragment.
      */
     fun forResult(requestCode: Int) {
+        if (0 == mSelectionSpec.themeId){
+            mSelectionSpec.themeId = R.style.Matisse_Zhihu
+        }
+
         val activity: Activity = mMatisse.getActivity() ?: return
         val intent = Intent(activity, MatisseActivity::class.java)
         val fragment: Fragment? = mMatisse.getFragment()

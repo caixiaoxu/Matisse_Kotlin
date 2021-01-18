@@ -1,3 +1,4 @@
+include ':matisse:func'
 include ':matisse'
 include ':app'
 rootProject.name = "Matisse_Kotlin"

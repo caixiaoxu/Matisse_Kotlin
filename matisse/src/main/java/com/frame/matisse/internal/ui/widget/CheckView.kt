@@ -22,7 +22,7 @@ import android.text.TextPaint
 import android.util.AttributeSet
 import android.view.View
 import androidx.core.content.res.ResourcesCompat
-import com.lsy.matisse.R
+import com.frame.matisse.R
 
 class CheckView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0

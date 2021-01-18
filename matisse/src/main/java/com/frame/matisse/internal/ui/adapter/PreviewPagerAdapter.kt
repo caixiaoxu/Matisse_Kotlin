@@ -4,7 +4,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.frame.matisse.internal.entity.Item
+import com.frame.matisse.func.internal.entity.Item
 import com.frame.matisse.ui.PreviewItemFragment
 import java.util.*
 

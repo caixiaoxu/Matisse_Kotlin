@@ -16,11 +16,11 @@
 package com.lsy.matisse_kotlin
 
 import android.content.Context
-import com.frame.matisse.MimeType
-import com.frame.matisse.filter.Filter
-import com.frame.matisse.internal.entity.IncapableCause
-import com.frame.matisse.internal.entity.Item
-import com.frame.matisse.internal.utils.PhotoMetadataUtils
+import com.frame.matisse.func.MimeType
+import com.frame.matisse.func.filter.Filter
+import com.frame.matisse.func.internal.entity.IncapableCause
+import com.frame.matisse.func.internal.entity.Item
+import com.frame.matisse.func.internal.utils.PhotoMetadataUtils
 
 internal class GifSizeFilter(
     private val mMinWidth: Int,

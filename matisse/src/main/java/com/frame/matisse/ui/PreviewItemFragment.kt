@@ -10,10 +10,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.lsy.matisse.R
-import com.frame.matisse.internal.entity.Item
-import com.frame.matisse.internal.entity.SelectionSpec
-import com.frame.matisse.internal.utils.PhotoMetadataUtils
+import com.frame.matisse.R
+import com.frame.matisse.func.internal.entity.Item
+import com.frame.matisse.func.internal.entity.SelectionSpec
+import com.frame.matisse.func.internal.utils.PhotoMetadataUtils
 import com.frame.matisse.listener.OnFragmentInteractionListener
 import it.sephiroth.android.library.imagezoom.ImageViewTouch
 import it.sephiroth.android.library.imagezoom.ImageViewTouchBase

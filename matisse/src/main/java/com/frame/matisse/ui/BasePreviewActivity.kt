@@ -11,18 +11,18 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import androidx.viewpager.widget.ViewPager
-import com.lsy.matisse.R
-import com.frame.matisse.internal.entity.IncapableCause
-import com.frame.matisse.internal.entity.Item
-import com.frame.matisse.internal.entity.SelectionSpec
-import com.frame.matisse.internal.model.SelectedItemCollection
-import com.frame.matisse.internal.utils.PhotoMetadataUtils
-import com.frame.matisse.internal.utils.Platform
-import com.frame.matisse.listener.OnFragmentInteractionListener
+import com.frame.matisse.R
+import com.frame.matisse.func.internal.entity.IncapableCause
+import com.frame.matisse.func.internal.entity.Item
+import com.frame.matisse.func.internal.entity.SelectionSpec
+import com.frame.matisse.func.internal.model.SelectedItemCollection
+import com.frame.matisse.func.internal.ui.IncapableDialog
+import com.frame.matisse.func.internal.utils.PhotoMetadataUtils
+import com.frame.matisse.func.internal.utils.Platform
 import com.frame.matisse.internal.ui.adapter.PreviewPagerAdapter
 import com.frame.matisse.internal.ui.widget.CheckRadioView
 import com.frame.matisse.internal.ui.widget.CheckView
-import com.frame.matisse.internal.ui.widget.IncapableDialog
+import com.frame.matisse.listener.OnFragmentInteractionListener
 
 /**
  * Title : 预览界面基本类

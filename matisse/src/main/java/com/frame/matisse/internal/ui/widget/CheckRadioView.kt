@@ -7,8 +7,8 @@ import android.graphics.PorterDuff
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.content.res.ResourcesCompat
-import com.lsy.matisse.R
-import com.frame.matisse.internal.utils.Platform
+import com.frame.matisse.R
+import com.frame.matisse.func.internal.utils.Platform
 
 /**
  * Title :

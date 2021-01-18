@@ -9,9 +9,9 @@ import android.widget.AdapterView.OnItemSelectedListener
 import android.widget.CursorAdapter
 import android.widget.TextView
 import androidx.appcompat.widget.ListPopupWindow
-import com.lsy.matisse.R
-import com.frame.matisse.internal.entity.Album
-import com.frame.matisse.internal.utils.Platform
+import com.frame.matisse.R
+import com.frame.matisse.func.internal.entity.Album
+import com.frame.matisse.func.internal.utils.Platform
 
 /**
  * Title : 相册专辑弹窗

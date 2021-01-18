@@ -46,7 +46,7 @@ dependencies {
     implementation Libs.material
     implementation Libs.constraintlayout
 
-    implementation Libs.glide
-    implementation Libs.picasso
     implementation Libs.imagezoom
+    api project(path: ':matisse:func')
+
 }

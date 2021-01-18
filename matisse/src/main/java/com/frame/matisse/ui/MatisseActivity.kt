@@ -18,17 +18,18 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
-import com.lsy.matisse.R
-import com.frame.matisse.internal.entity.Album
-import com.frame.matisse.internal.entity.Item
-import com.frame.matisse.internal.entity.SelectionSpec
-import com.frame.matisse.internal.model.AlbumCollection
-import com.frame.matisse.internal.model.SelectedItemCollection
+import com.frame.matisse.R
+import com.frame.matisse.func.internal.entity.Album
+import com.frame.matisse.func.internal.entity.Item
+import com.frame.matisse.func.internal.entity.SelectionSpec
+import com.frame.matisse.func.internal.model.AlbumCollection
+import com.frame.matisse.func.internal.model.SelectedItemCollection
+import com.frame.matisse.func.internal.ui.IncapableDialog
+import com.frame.matisse.func.internal.utils.*
 import com.frame.matisse.internal.ui.adapter.AlbumMediaAdapter
 import com.frame.matisse.internal.ui.adapter.AlbumsAdapter
 import com.frame.matisse.internal.ui.widget.AlbumsSpinner
 import com.frame.matisse.internal.ui.widget.CheckRadioView
-import com.frame.matisse.internal.ui.widget.IncapableDialog
 import com.frame.matisse.internal.utils.*
 import java.util.*
 

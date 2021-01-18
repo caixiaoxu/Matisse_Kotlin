@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import androidx.fragment.app.Fragment
+import com.frame.matisse.func.MimeType
 import com.frame.matisse.ui.MatisseActivity
 import java.lang.ref.WeakReference
 

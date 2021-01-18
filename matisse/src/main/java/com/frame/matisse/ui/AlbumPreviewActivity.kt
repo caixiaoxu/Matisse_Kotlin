@@ -2,10 +2,10 @@ package com.frame.matisse.ui
 
 import android.database.Cursor
 import android.os.Bundle
-import com.frame.matisse.internal.entity.Album
-import com.frame.matisse.internal.entity.Item
-import com.frame.matisse.internal.entity.SelectionSpec
-import com.frame.matisse.internal.model.AlbumMediaCollection
+import com.frame.matisse.func.internal.entity.Album
+import com.frame.matisse.func.internal.entity.Item
+import com.frame.matisse.func.internal.entity.SelectionSpec
+import com.frame.matisse.func.internal.model.AlbumMediaCollection
 import com.frame.matisse.internal.ui.adapter.PreviewPagerAdapter
 import java.util.*
 

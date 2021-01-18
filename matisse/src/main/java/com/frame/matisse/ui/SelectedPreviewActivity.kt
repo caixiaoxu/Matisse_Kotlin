@@ -1,9 +1,9 @@
 package com.frame.matisse.ui
 
 import android.os.Bundle
-import com.frame.matisse.internal.entity.Item
-import com.frame.matisse.internal.entity.SelectionSpec
-import com.frame.matisse.internal.model.SelectedItemCollection
+import com.frame.matisse.func.internal.entity.Item
+import com.frame.matisse.func.internal.entity.SelectionSpec
+import com.frame.matisse.func.internal.model.SelectedItemCollection
 
 /**
  * Title :
@@ -29,9 +29,9 @@ class SelectedPreviewActivity : BasePreviewActivity() {
         mAdapter?.addAll(selected)
         mAdapter?.notifyDataSetChanged()
         if (SelectionSpec.countable) {
-            mCheckView!!.setCheckedNum(1)
+            mCheckView.setCheckedNum(1)
         } else {
-            mCheckView!!.setChecked(true)
+            mCheckView.setChecked(true)
         }
         mPreviousPos = 0
         updateSize(selected[0])

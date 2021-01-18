@@ -28,11 +28,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.frame.matisse.Matisse
-import com.frame.matisse.MimeTypeManager
-import com.frame.matisse.engine.impl.GlideEngine
-import com.frame.matisse.engine.impl.PicassoEngine
-import com.frame.matisse.filter.Filter
-import com.frame.matisse.internal.entity.CaptureStrategy
+import com.frame.matisse.func.MimeTypeManager
+import com.frame.matisse.func.engine.impl.GlideEngine
+import com.frame.matisse.func.engine.impl.PicassoEngine
+import com.frame.matisse.func.filter.Filter
+import com.frame.matisse.func.internal.entity.CaptureStrategy
 import com.frame.matisse.listener.OnCheckedListener
 import com.frame.matisse.listener.OnSelectedListener
 import com.tbruyelle.rxpermissions2.RxPermissions

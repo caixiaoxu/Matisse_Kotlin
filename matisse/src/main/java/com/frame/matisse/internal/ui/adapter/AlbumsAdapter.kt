@@ -10,9 +10,9 @@ import android.view.ViewGroup
 import android.widget.CursorAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.lsy.matisse.R
-import com.frame.matisse.internal.entity.Album
-import com.frame.matisse.internal.entity.SelectionSpec
+import com.frame.matisse.R
+import com.frame.matisse.func.internal.entity.Album
+import com.frame.matisse.func.internal.entity.SelectionSpec
 import java.lang.String
 
 /**
