@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -30,6 +31,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    androidExtensions {
+        experimental = true
+    }
 }
 
 dependencies {
@@ -43,6 +47,7 @@ dependencies {
     androidTestImplementation Libs.espresso_core
 
     implementation project(':matisse')
+//    implementation 'com.github.caixiaoxu:Matisse_Kotlin:1.0.2'
 
     implementation 'io.reactivex.rxjava2:rxjava:2.2.12'
     implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'

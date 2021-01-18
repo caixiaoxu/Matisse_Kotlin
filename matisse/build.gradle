@@ -48,6 +48,6 @@ dependencies {
 
     implementation Libs.imagezoom
 
-    implementation project(path: ':matisse:func')
-//    api project(path: ':matisse:func')
+//    implementation project(path: ':matisse:func')
+    api project(path: ':matisse:func')
 }
