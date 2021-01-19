@@ -59,7 +59,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-    // <editor-fold defaultstate="collapsed" desc="onClick">
     @SuppressLint("CheckResult")
     override fun onClick(v: View?) {
         v?.let {
